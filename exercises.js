@@ -92,7 +92,11 @@ console.log('Question 3: ' + isGreaterThan(2,1))
  * Console.log your result.
 */
 
-
+function mustBeTrue(boo){
+  if (boo === 'boo')
+  return true;
+}
+console.log('Question 4: ' + mustBeTrue('boo'));
 
 /*
  * #5
