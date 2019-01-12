@@ -38,7 +38,7 @@ function canVote(age){
     return false;
   }
 }
-console.log(canVote(16));
+console.log("Question 1: " + canVote(16));
 
 /*
  * #2
@@ -56,7 +56,7 @@ function login(password){
   if (password === 'test1234'){
     return "Login Successful!"}
   }
-  console.log(login('test1234'))
+  console.log('Question 2: ' + login('test1234'))
 
 /*
  * #3
@@ -71,7 +71,14 @@ function login(password){
  * Console.log your result.
 */
 
-
+function isGreaterThan(first, second){
+  if (first>second){
+    return 'true'
+  } else {
+    return 'false'
+  }
+}
+console.log('Question 3: ' + isGreaterThan(2,1))
 
 /*
  * #4
