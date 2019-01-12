@@ -134,12 +134,12 @@ console.log('Question 5: ' + bigBird('boo'));
 
 function isEqual(first, second){
   if (first === second){
-    return 'You look mahvelous!'}
-    else {
+    return 'You look mahvelous!'
+  }else {
       return "I don't know who you are anymore."
     }
   }
-console.log(isEqual(1,2))
+console.log('Question 6: ' + isEqual(1,2))
 
 /*
  * #7
@@ -154,7 +154,14 @@ console.log(isEqual(1,2))
  * Console.log your result.
 */
 
-
+function notEqual(first, second){
+  if (first !== second){
+    return 'Opposites do attract'
+  }else{
+    return "Cause it's like you're my mirror."
+  }
+}
+console.log('Question 7: ' + notEqual(1,2))
 /*
  * #8
  * Function - spareChange
