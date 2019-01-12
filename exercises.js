@@ -240,6 +240,14 @@ console.log('Question 10: ' + evenStevens(11))
  * Console.log your result.
 */ 
 
+function daClub(cover, age){
+  if (age >= 21 && cover === 21){
+    return 'Welcome to the Legends Lounge'
+  } else {
+    return 'Check E Cheese is across the street.'
+  }
+}
+console.log('Question 10: ' + daClub(21,20))
 
 /*
  * #12
