@@ -197,7 +197,14 @@ console.log('Question 8: ' + spareChange(101))
  * Console.log your result.
 */ 
 
-
+function dirty30(one, two, three){
+  if (one + two + three > 30){
+    return true}
+    else {
+      return false
+    }
+  }
+console.log('Question 9: ' + dirty30(10,10,15))
 
 /*
  * #10
