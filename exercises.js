@@ -247,7 +247,7 @@ function daClub(cover, age){
     return 'Check E Cheese is across the street.'
   }
 }
-console.log('Question 10: ' + daClub(21,20))
+console.log('Question 11: ' + daClub(21,20))
 
 /*
  * #12
@@ -262,7 +262,14 @@ console.log('Question 10: ' + daClub(21,20))
  * Console.log your result.
 */ 
 
-
+function graduation(credits, thesis){
+  if (credits || thesis >= 120){
+    return 'Congratulations on a job well done.'
+  } else {
+    return "See you in summer school"
+  }
+}
+console.log('Question 11: ' + graduation(10, 10))
 
 /*
  * #13
