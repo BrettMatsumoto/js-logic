@@ -110,7 +110,14 @@ console.log('Question 4: ' + mustBeTrue('boo'));
  * Console.log your result.
 */
 
-
+function bigBird(word){
+  if (word.length === 3){
+    return "Word to Big Bird!"
+  } else {
+    return 'False'
+  }
+}
+console.log('Question 5: ' + bigBird('boo'));
 
 /*
  * #6
