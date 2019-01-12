@@ -283,7 +283,15 @@ console.log('Question 11: ' + graduation(10, 10))
  * Console.log your result.
 */ 
 
-
+function moneyTrain(speed){
+  if (speed >= 100) {
+    return "Now you ballin' in the Shinkansen!"
+  } else if (speed < 100 && speed > 50) {
+    return "You are riding an Amtrack"
+  } else (speed < 50) 
+    return "You are riding Honolulu's Rail."
+  }
+console.log("Question 13: " + moneyTrain(25))
 /*
  * #14
  * Function - buyDoughnut
