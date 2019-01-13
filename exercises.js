@@ -351,7 +351,7 @@ function dailySpecials(special){
   }
   return special
 }
-console.log(dailySpecials('Final Boss 1: ' + "Today's special is: " + 'Tuesday'));
+console.log("Today's special is: " + dailySpecials('Monday'));
 
 /*
 For loops - A for loop checks a condition a specific number of times and allows us to execute a code block and evaluate a condition to determine if our loop should run again.
