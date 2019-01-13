@@ -411,13 +411,14 @@ for (var i = 0; i<players.length; i++){
  * Console.log your result.
 */
 
-var numArray = [1,2,3,4,5];
+var numArray = [1, 2, 3, 4, 5];
 var total = 0;
 function sumItUp(arr){
-  for (total = 0; total<numArray.length; i++){
-    console.log(total[i]);
-  }
+  for (i=0; i<arr.length; i++){
+    total += arr[i];
+  } return total
 }
+console.log('Question 17: ' + sumItUp(numArray));
 
 /*
  * #18
@@ -472,4 +473,8 @@ var phrase = "An apple a day keeps Alice feeling awesome!";
 
 
 
+
+function newFunction() {
+  console.log(sumItUp(numArray));
+}
 
