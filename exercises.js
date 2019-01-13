@@ -351,7 +351,7 @@ function dailySpecials(special){
   }
   return special
 }
-console.log("Today's special is: " + dailySpecials('Monday'));
+console.log("Question 14 1/2: Today's special is: " + dailySpecials('Monday'));
 
 /*
 For loops - A for loop checks a condition a specific number of times and allows us to execute a code block and evaluate a condition to determine if our loop should run again.
@@ -383,7 +383,7 @@ for (var i = 0; i<toyotaModels.length; i++){
 var players = ['Player: 1','Player: 2','Player: 3','Player: 4', 'Player: 5'];
 
 for (var i = 0; i<players.length; i++){
-  console.log('Final Boss 2: ' + 'Online: ' + players[i]);
+  console.log('Question 15: ' + players[i]);
 }
 
 /* 
@@ -393,7 +393,7 @@ for (var i = 0; i<players.length; i++){
   var myFavFoods = ["lemon bar", "carrot cake", "nachos", "bacon cheeseburger", "ramen", "sweet potato fries", "chimichanga"];
 
   for (var i=0; i<myFavFoods.length; i++){
-    console.log("Final Boss 3: " + 'Favorite Food: ' + myFavFoods[i]);
+    console.log("Question 16: " + myFavFoods[i]);
   }
 
 /*
@@ -411,7 +411,13 @@ for (var i = 0; i<players.length; i++){
  * Console.log your result.
 */
 
-
+var numArray = [1,2,3,4,5];
+var total = 0;
+function sumItUp(arr){
+  for (total = 0; total<numArray.length; i++){
+    console.log(total[i]);
+  }
+}
 
 /*
  * #18
