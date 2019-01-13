@@ -351,7 +351,7 @@ function dailySpecials(special){
   }
   return special
 }
-console.log(dailySpecials('Tuesday'));
+console.log(dailySpecials('Final Boss 1: ' + "Today's special is: " + 'Tuesday'));
 
 /*
 For loops - A for loop checks a condition a specific number of times and allows us to execute a code block and evaluate a condition to determine if our loop should run again.
@@ -363,12 +363,12 @@ The for loop is made up for 3 parts:
 3) Update (i.e. i++)
 */
 
-var toyotaModels = ["Corolla", "Prius", "4 Runner", "Camry", "Land Cruiser"];
+/*var toyotaModels = ["Corolla", "Prius", "4 Runner", "Camry", "Land Cruiser"];
 
 for (var i = 0; i<toyotaModels.length; i++){
    console.log("Toyota " + toyotaModels[i]);
 }
-
+*/
 
 /* 
  * #15
@@ -380,6 +380,11 @@ for (var i = 0; i<toyotaModels.length; i++){
  * "Player: 5"
 */
 
+var players = ['Player: 1','Player: 2','Player: 3','Player: 4', 'Player: 5'];
+
+for (var i = 0; i<players.length; i++){
+  console.log('Final Boss 2: ' + 'Online: ' + players[i]);
+}
 
 /* 
  * #16
@@ -387,6 +392,9 @@ for (var i = 0; i<toyotaModels.length; i++){
 */
   var myFavFoods = ["lemon bar", "carrot cake", "nachos", "bacon cheeseburger", "ramen", "sweet potato fries", "chimichanga"];
 
+  for (var i=0; i<myFavFoods.length; i++){
+    console.log("Final Boss 3: " + 'Favorite Food: ' + myFavFoods[i]);
+  }
 
 /*
  * #17
