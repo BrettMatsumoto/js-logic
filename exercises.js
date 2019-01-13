@@ -269,7 +269,7 @@ function graduation(credits, thesis){
     return "See you in summer school"
   }
 }
-console.log('Question 11: ' + graduation(10, 10))
+console.log('Question 12: ' + graduation(10, 10))
 
 /*
  * #13
@@ -314,11 +314,11 @@ function buyDoughnut(){
   }
 }
 buyDoughnut()
-console.log("New budget: " + budget);
-console.log("Doughnut Quantity: " + doughnutBought);
+console.log('Question 14 (pt.1): ' + "New budget: " + budget);
+console.log('Question 14 (pt.1): ' + "Doughnut Quantity: " + doughnutBought);
 buyDoughnut()
-console.log("New budget: " + budget);
-console.log("Doughnut Quantity: " + doughnutBought);
+console.log('Question 14 (pt.2): ' + "New budget: " + budget);
+console.log('Question 14 (pt.2): ' + "Doughnut Quantity: " + doughnutBought);
 
 /*Final Boss*/
 /*Create a function name dailySpecials which takes in a parameter: `special`.
@@ -349,8 +349,9 @@ function dailySpecials(special){
     special = 'Salty Wine';
     break
   }
+  return special
 }
-console.log(dailySpecials('Salty Fish'));
+console.log(dailySpecials('Tuesday'));
 
 /*
 For loops - A for loop checks a condition a specific number of times and allows us to execute a code block and evaluate a condition to determine if our loop should run again.
