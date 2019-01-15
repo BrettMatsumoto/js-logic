@@ -351,7 +351,7 @@ function dailySpecials(special){
   }
   return special
 }
-console.log("Question 14 1/2: Today's special is: " + dailySpecials('Monday'));
+console.log("Question 14 1/2: Today's special is: " + dailySpecials('Friday'));
 
 /*
 For loops - A for loop checks a condition a specific number of times and allows us to execute a code block and evaluate a condition to determine if our loop should run again.
@@ -431,8 +431,23 @@ console.log('Question 17: ' + sumItUp(numArray));
  * The function will loop through the players array and will put all the even number indexed players in the `east` array and the rest in the `west` array.
  * Console.log both the east and west arrays.
 */ 
-
 var players = ["Yao Ming", "BrookLin", " Jesus Shuttlesworth", "Manute Bol", "Sidney Deane", "World B Free"];
+var east = [];
+var west = [];
+
+function allStars(ballers){
+  for (i=0; i<players.length; i++){
+    if (i%2===0){
+      east.push(ballers[i]);
+    } else {
+      west.push(ballers[i]);
+    }
+  }
+}
+allStars(players);
+console.log('East Players: ' + east);
+console.log('West Players: ' + west);
+
 /*
  * #19
  * Function - subways
@@ -447,6 +462,13 @@ var players = ["Yao Ming", "BrookLin", " Jesus Shuttlesworth", "Manute Bol", "Si
 
   var subOftheDay = ["Teriyaki Chicken", "Spicy Italian", "Turkey", "BMT", "Black Forest Ham", "Meatball Marinara", "Veggie"];
 
+  function subways(special){
+    for (i=0;i<subOftheDay.length;i++){
+      if (i%2 !==0){
+
+      }
+    }
+  }
 
 /*
 Final Boss
@@ -472,9 +494,4 @@ var phrase = "An apple a day keeps Alice feeling awesome!";
 
 
 
-
-
-function newFunction() {
-  console.log(sumItUp(numArray));
-}
 
